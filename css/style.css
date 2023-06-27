@@ -97,8 +97,28 @@
   }
   
   .hero {
-    margin-top: 137px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
+  .hero-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 15px solid #444;
+    box-shadow: 5px 7px 25px rgb(0, 0, 0, 0.5);
+}
+  .hero-pic img {
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.hero-pic img:hover{
+    transform: scale(1.2);
+}
   .hero .hero_intro {
     font-family: brandon grotesque;
     font-size: 40px;
