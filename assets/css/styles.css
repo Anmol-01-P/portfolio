@@ -121,7 +121,7 @@ background-color: hsl(40, 20%, 12%);
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1024px;
+  /* max-width: 15px; */
   margin-inline: 1.5rem;
 }
 
